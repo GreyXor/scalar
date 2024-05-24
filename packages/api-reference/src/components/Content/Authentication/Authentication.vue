@@ -10,7 +10,6 @@ import { computed, onServerPrefetch, useSSRContext, watch } from 'vue'
 
 import { hasSecuritySchemes, sleep } from '../../../helpers'
 import type { Spec } from '../../../types'
-import { Card, CardContent, CardHeader } from '../../Card'
 
 const props = defineProps<{ parsedSpec?: Spec }>()
 
