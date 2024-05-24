@@ -633,8 +633,8 @@ importers:
         specifier: workspace:*
         version: link:../components
       '@scalar/openapi-parser':
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.4.1
+        version: 0.4.1
       '@scalar/themes':
         specifier: workspace:*
         version: link:../themes
@@ -795,8 +795,8 @@ importers:
         specifier: workspace:*
         version: link:../oas-utils
       '@scalar/openapi-parser':
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.4.1
+        version: 0.4.1
       '@scalar/snippetz':
         specifier: ^0.1.6
         version: 0.1.6
@@ -1050,8 +1050,8 @@ importers:
         specifier: workspace:*
         version: link:../oas-utils
       '@scalar/openapi-parser':
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.4.1
+        version: 0.4.1
       commander:
         specifier: ^12.0.0
         version: 12.0.0
@@ -1392,8 +1392,8 @@ importers:
   packages/galaxy:
     devDependencies:
       '@scalar/openapi-parser':
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.4.1
+        version: 0.4.1
       '@vitest/coverage-v8':
         specifier: ^1.5.0
         version: 1.5.0(vitest@1.5.0)
@@ -1438,8 +1438,8 @@ importers:
         specifier: workspace:*
         version: link:../oas-utils
       '@scalar/openapi-parser':
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.4.1
+        version: 0.4.1
       hono:
         specifier: ^4.2.7
         version: 4.2.8
@@ -1584,8 +1584,8 @@ importers:
         specifier: workspace:*
         version: link:../build-tooling
       '@scalar/openapi-parser':
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.4.1
+        version: 0.4.1
       axios:
         specifier: ^1.6.8
         version: 1.6.8(debug@4.3.4)
@@ -1611,8 +1611,8 @@ importers:
         specifier: workspace:*
         version: link:../api-reference
       '@scalar/openapi-parser':
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.4.1
+        version: 0.4.1
       '@scalar/themes':
         specifier: workspace:*
         version: link:../themes
@@ -7060,10 +7060,6 @@ packages:
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
     engines: {node: '>=12.22'}
 
-  /@humanwhocodes/momoa@3.0.2:
-    resolution: {integrity: sha512-YrVdm6ntzi49kj/YlFQF5MClnOeZJv2d34tZqdrMKzVCOi0EC6pD/0z9SWb8fU9bTPkmUNPsYVJ1wFd4QamBBQ==}
-    engines: {node: '>=18'}
-
   /@humanwhocodes/object-schema@2.0.2:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
 
@@ -9744,11 +9740,10 @@ packages:
       string-argv: 0.3.2
     dev: true
 
-  /@scalar/openapi-parser@0.4.0:
-    resolution: {integrity: sha512-ibRoE5L6Evza3+H6ZZTLRV/hoz4InZVE6yhGcwLpFE9gjUq7LjZocaDDV0kHbkSdtB8AZ8pquekpzXh60bdobw==}
+  /@scalar/openapi-parser@0.4.1:
+    resolution: {integrity: sha512-y9LxZhJTB2VofTvurcJ5/0RPcVDUR+qrCIxWOQGNwt66GNLAlUyXMY+A65A9TItptAfjC+YNco5mTTTZLJAntg==}
     engines: {node: '>=18'}
     dependencies:
-      '@humanwhocodes/momoa': 3.0.2
       ajv: 8.13.0
       ajv-draft-04: 1.0.0(ajv@8.13.0)
       ajv-formats: 3.0.1(ajv@8.13.0)
