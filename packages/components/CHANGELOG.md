@@ -1,5 +1,13 @@
 # @scalar/components
 
+## 0.9.1
+
+### Patch Changes
+
+- 83bfad8: chore: lint icon svgs
+- 34eba38: fix: update storybook script
+- 195ca18: fix: align show hide icons with icon standards
+
 ## 0.9.0
 
 ### Minor Changes
